@@ -1,0 +1,49 @@
+.hero{
+    background-color: var(--dark-green);
+    color: var(--white);
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.topo-background{
+    position: absolute;
+    width: 100%;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.hero-text-container{
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+
+    span{
+        color: var(--brown);
+    }
+}
+
+.hero-intro{
+    color: var(--brown);
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: var(--black);
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: 1px solid var(--brown);
+}
+
+h1{
+    font-size: 4rem;
+    margin: 1rem 0rem;
+}

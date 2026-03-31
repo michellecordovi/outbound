@@ -3,4 +3,8 @@ nav{
     background-color: var(--dark-green);
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid var(--light-green);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
 }
