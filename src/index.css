@@ -11,17 +11,24 @@
 	--heading: 'Zilla Slab', 'Courier New', Courier, monospace;
 }
 
-body {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+#root{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6{
 	font-family: var(--heading);
 }
 
-p{
+p, a{
 	font-family: var(--paragraph);
 }
 
