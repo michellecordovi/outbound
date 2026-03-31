@@ -1,7 +1,6 @@
 nav{
     padding: 1rem 2rem;
     background-color: var(--dark-green);
-    color: var(--brown);
     display: flex;
     justify-content: space-between;
 }

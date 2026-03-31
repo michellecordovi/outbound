@@ -19,12 +19,10 @@ body {
 
 h1, h2, h3, h4, h5, h6{
 	font-family: var(--heading);
-	color: var(--dark-green);
 }
 
 p{
 	font-family: var(--paragraph);
-	color: var(--black);
 }
 
 .subheading{
