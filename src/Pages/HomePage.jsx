@@ -1,10 +1,11 @@
 import Hero from '../components/HomePageHero/Hero'
+import TripPlannerForm from '../components/TripPlannerForm/TripPlannerForm';
 
 function HomePage() {
     return (
         <main>
             <Hero />
-            <h1>Hi Michelle!!!</h1>
+            <TripPlannerForm />
         </main>
     )
 }
