@@ -7,13 +7,27 @@
 	--gray: #e5e4e2;
 	--white: #f4f4f0;
 
-	--sans: system-ui, "Segoe UI", Roboto, sans-serif;
-	--heading: system-ui, "Segoe UI", Roboto, sans-serif;
-	--mono: ui-monospace, Consolas, monospace;
+	--paragraph: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	--heading: 'Zilla Slab', 'Courier New', Courier, monospace;
 }
 
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: var(--heading);
+	color: var(--dark-green);
+}
+
+p{
+	font-family: var(--paragraph);
+	color: var(--black);
+}
+
+.subheading{
+	font-family: var(--paragraph);
+	font-size: 20px;
 }
