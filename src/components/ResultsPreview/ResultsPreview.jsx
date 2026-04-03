@@ -1,0 +1,69 @@
+import "./ResultsPreview.css";
+import { MdChecklist, MdOutlineMap } from "react-icons/md";
+import { SiAccuweather } from "react-icons/si";
+import { FaCompass } from "react-icons/fa";
+
+function ResultsPreview() {
+	const previews = [
+		{
+			title: "Smart Gear Checklist",
+			description:
+				"Dynamic packing lists tailored to your specific activities and trip duration.",
+			icon: MdChecklist,
+			color: "text-[#2D5016]",
+			bg: "bg-[#2D5016]/10",
+		},
+		{
+			title: "Micro-Climate Weather",
+			description:
+				"Hyper-local forecasts for your exact elevation and coordinates.",
+			icon: SiAccuweather,
+			color: "text-[#D97706]",
+			bg: "bg-[#D97706]/10",
+		},
+		{
+			title: "Trail Recommendations",
+			description:
+				"Curated routes matching your skill level and time constraints.",
+			icon: MdOutlineMap,
+			color: "text-[#4A5568]",
+			bg: "bg-[#4A5568]/10",
+		},
+		{
+			title: "Local Knowledge",
+			description:
+				"Insider tips on permits, water sources, and nearby amenities.",
+			icon: FaCompass,
+			color: "text-[#C4A77D]",
+			bg: "bg-[#C4A77D]/10",
+		},
+	];
+
+	return (
+		<section className="results-preview-section">
+			<div className="results-preview-container">
+				<div>
+					<h2>Hello Michelle!</h2>
+					<p className='subheading'>This is the results preview section.</p>
+				</div>
+
+				<div className="results-preview-cards">
+					{previews.map((element, index) => {
+						return (
+							<div
+								key={index}
+								className="preview-card"
+							>
+								<element.icon />
+								<h3>{element.title}</h3>
+								<p>{element.description}</p>
+							</div>
+						);
+					})}
+				</div>
+			</div>
+		</section>
+	);
+}
+
+export default ResultsPreview;

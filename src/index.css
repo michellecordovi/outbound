@@ -26,6 +26,15 @@
 
 h1, h2, h3, h4, h5, h6{
 	font-family: var(--heading);
+	color: var(--dark-green);
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h2{
+	font-size: 3rem;
 }
 
 p, a{
