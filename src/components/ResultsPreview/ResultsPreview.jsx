@@ -41,10 +41,10 @@ function ResultsPreview() {
 
 	return (
 		<section className="results-preview-section">
-			<div className="results-preview-container">
+			<div className="results-preview-container container">
 				<div>
-					<h2>Hello Michelle!</h2>
-					<p className='subheading'>This is the results preview section.</p>
+					<h2>What You'll Get</h2>
+					<p className='subheading'>Our planner analyzes your trip details to generate a comprehensive expedition guide.</p>
 				</div>
 
 				<div className="results-preview-cards">
@@ -54,7 +54,7 @@ function ResultsPreview() {
 								key={index}
 								className="preview-card"
 							>
-								<element.icon />
+								<element.icon/>
 								<h3>{element.title}</h3>
 								<p>{element.description}</p>
 							</div>

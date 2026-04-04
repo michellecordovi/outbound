@@ -37,11 +37,21 @@ h2{
 	font-size: 3rem;
 }
 
+h3{
+	font-size: 1.4rem;
+}
+
 p, a{
 	font-family: var(--paragraph);
+	font-weight: 300;
 }
 
 .subheading{
 	font-family: var(--paragraph);
 	font-size: 20px;
+	font-weight: 400;
+}
+
+.container{
+	max-width: 1400px;
 }

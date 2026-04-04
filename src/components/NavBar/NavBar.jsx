@@ -1,12 +1,16 @@
-import './NavBar.css'
-import Logo from '../Logo/Logo'
+import "./NavBar.css";
+import Logo from "../Logo/Logo";
 
 function NavBar() {
 	return (
-		<nav>
-			<Logo />
-			<button>Buy me a coffee!</button>
-		</nav>
+		<header>
+			<div className="header-container container">
+				<nav>
+					<Logo />
+					<button>Buy me a coffee!</button>
+				</nav>
+			</div>
+		</header>
 	);
 }
 
