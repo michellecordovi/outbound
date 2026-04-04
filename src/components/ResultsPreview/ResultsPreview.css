@@ -1,5 +1,5 @@
 .results-preview-section {
-    padding: 64px;
+    padding: 120px 64px;
 }
 
 .results-preview-container{
@@ -16,7 +16,7 @@
 .results-preview-cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
     width: 100%;
 }
 
@@ -27,8 +27,10 @@
     border-radius: 1rem;
     min-height: 240px;
     text-align: left;
+}
 
-    svg{
-        font-size: 2.5rem;
-    }
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
