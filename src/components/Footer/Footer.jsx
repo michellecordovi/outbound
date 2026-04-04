@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer>
 			<div className="footer-container container">
-				<div id="footer-sections">
+				<div className="footer-sections">
 					<div>
 						<Logo />
 						<p>

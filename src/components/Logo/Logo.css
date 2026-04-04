@@ -3,14 +3,10 @@
 	align-items: center;
 	gap: 6px;
 	color: var(--brown);
+}
 
-	svg {
-		font-size: 32px;
-	}
-
-    p{
+  .logo-text{
         font-size: 24px;
         font-weight: bold;
         font-family: var(--heading);
     }
-}
