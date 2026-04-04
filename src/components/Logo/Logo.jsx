@@ -1,10 +1,10 @@
 import './Logo.css'
-import { GiMountains } from "react-icons/gi";
+import { MountainSnow } from 'lucide-react';
 
 function Logo() {
 	return (
 		<div class="logo">
-			<GiMountains />
+			<MountainSnow/>
 			<p>Outbound</p>
 		</div>
 	);

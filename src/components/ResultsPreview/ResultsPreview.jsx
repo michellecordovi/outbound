@@ -1,7 +1,5 @@
 import "./ResultsPreview.css";
-import { MdChecklist, MdOutlineMap } from "react-icons/md";
-import { SiAccuweather } from "react-icons/si";
-import { FaCompass } from "react-icons/fa";
+import { ListChecks, ThermometerSun, Map, Compass } from 'lucide-react';
 
 function ResultsPreview() {
 	const previews = [
@@ -9,7 +7,7 @@ function ResultsPreview() {
 			title: "Smart Gear Checklist",
 			description:
 				"Dynamic packing lists tailored to your specific activities and trip duration.",
-			icon: MdChecklist,
+			icon: ListChecks,
 			color: "text-[#2D5016]",
 			bg: "bg-[#2D5016]/10",
 		},
@@ -17,7 +15,7 @@ function ResultsPreview() {
 			title: "Micro-Climate Weather",
 			description:
 				"Hyper-local forecasts for your exact elevation and coordinates.",
-			icon: SiAccuweather,
+			icon: ThermometerSun,
 			color: "text-[#D97706]",
 			bg: "bg-[#D97706]/10",
 		},
@@ -25,7 +23,7 @@ function ResultsPreview() {
 			title: "Trail Recommendations",
 			description:
 				"Curated routes matching your skill level and time constraints.",
-			icon: MdOutlineMap,
+			icon: Map,
 			color: "text-[#4A5568]",
 			bg: "bg-[#4A5568]/10",
 		},
@@ -33,7 +31,7 @@ function ResultsPreview() {
 			title: "Local Knowledge",
 			description:
 				"Insider tips on permits, water sources, and nearby amenities.",
-			icon: FaCompass,
+			icon: Compass,
 			color: "text-[#C4A77D]",
 			bg: "bg-[#C4A77D]/10",
 		},
@@ -54,7 +52,7 @@ function ResultsPreview() {
 								key={index}
 								className="preview-card"
 							>
-								<element.icon/>
+								<element.icon />
 								<h3>{element.title}</h3>
 								<p>{element.description}</p>
 							</div>
