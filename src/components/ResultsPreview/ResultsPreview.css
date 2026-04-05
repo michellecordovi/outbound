@@ -49,3 +49,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media only screen and (max-width: 500px) {
+	.results-preview-section {
+		padding: 120px 1.25rem;
+	}
+}

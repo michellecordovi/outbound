@@ -5,8 +5,19 @@
 	color: var(--brown);
 }
 
-  .logo-text{
-        font-size: 24px;
-        font-weight: bold;
-        font-family: var(--heading);
-    }
+.logo-text {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: var(--heading);
+}
+
+@media only screen and (max-width: 500px) {
+	.logo-text{
+    display: none;
+  }
+
+  .logo-icon{
+    width: 2rem;
+    height: 2rem;
+  }
+}

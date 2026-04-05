@@ -4,7 +4,7 @@ import { MountainSnow } from 'lucide-react';
 function Logo() {
 	return (
 		<div class="logo">
-			<MountainSnow />
+			<MountainSnow className='logo-icon'/>
 			<span className="logo-text">Outbound</span>
 		</div>
 	);
