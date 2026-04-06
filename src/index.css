@@ -9,6 +9,8 @@
 
 	--paragraph: Inter, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	--heading: "Zilla Slab", "Courier New", Courier, monospace;
+
+	--white-box-shadow: 0px 0px 32px 4px #0000001a;
 }
 
 * {
@@ -32,6 +34,7 @@ h5,
 h6 {
 	font-family: var(--heading);
 	color: var(--dark-green);
+	padding-bottom: 0.75rem;
 }
 
 h1 {
