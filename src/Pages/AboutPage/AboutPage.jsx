@@ -2,9 +2,19 @@ import "./AboutPage.css";
 import Hero from "../../components/Hero/Hero";
 
 function AboutPage() {
+	const heroContent = {
+		intro: 'The Story',
+		heading: 'About the Outbound Builder',
+		subheading: 'Where code meets the backcountry.'
+	};
+
 	return (
 		<main>
-			<Hero />
+			<Hero
+				intro={heroContent.intro}
+				heading={heroContent.heading}
+				subheading={heroContent.subheading}
+			/>
 			<section className="about-me-section">
 				<div className="about-me-container">
 					<div className="about-me-text-box">

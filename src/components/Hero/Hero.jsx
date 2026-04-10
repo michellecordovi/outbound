@@ -1,16 +1,16 @@
 import "./Hero.css";
 import TopoBackground from "../TopoBackground";
 
-function Hero() {
+function Hero(props) {
 	return (
 		<section className="hero">
             <TopoBackground />
 			<div className='hero-text-container'>
-				<p className='hero-intro'>Expidition Ready</p>
-				<h1>Never Forget <span>Crucial Gear</span> Again.</h1>
+				<p className='hero-intro'>{props.intro}</p>
+				{/* <h1>Never Forget <span>Crucial Gear</span> Again.</h1> */}
+				<h1>{props.heading}</h1>
 				<p className="subheading">
-					Custom packing lists based on your specific route,
-					activities, and local weather forecasts.
+					{props.subheading}
 				</p>
 			</div>
 		</section>
